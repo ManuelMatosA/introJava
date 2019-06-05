@@ -3,10 +3,12 @@ package com.mj;
 
 //Imports
 import java.util.Scanner;
+import java.nio.charset.Charset;
 
     /**
      * Main12 Class
      */
+    @SuppressWarnings("PMD.DataflowAnomalyAnalysis")
     public class Main12 {
         /**
          * 2.32 (Negative, Positive and Zero Values) Write a program that inputs five numbers and determines
@@ -22,7 +24,7 @@ import java.util.Scanner;
             int cero = 0;
 
             //Fields
-            Scanner input = new Scanner(System.in);
+            Scanner input = new Scanner(System.in, Charset.defaultCharset());
 
             //Prompt, input numbers
             System.out.println("Enter first integer: ");

@@ -3,10 +3,12 @@ package com.mj;
 
 //Imports
 import java.util.Scanner;
+import java.nio.charset.Charset;
 
 /**
  * Main10 Class
  */
+@SuppressWarnings("PMD.AvoidLiteralsInIfCondition")
 public class Main10 {
 
     /**
@@ -23,7 +25,7 @@ public class Main10 {
     public static void main(String[] args) {
 
         //Fields
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in, Charset.defaultCharset());
 
         //Variables
         int num;

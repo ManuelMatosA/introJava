@@ -4,7 +4,7 @@ package com.mj;
 /**
  * Main8 Class
  */
-
+@SuppressWarnings("PMD.AvoidDuplicateLiterals")
 public class Main8 {
 
     public static void main(String[] args) {

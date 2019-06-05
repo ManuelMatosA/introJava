@@ -3,6 +3,7 @@ package com.mj;
 
 //Imports
 import java.util.Scanner;
+import java.nio.charset.Charset;
 
 /**
  * Main7 Class
@@ -18,7 +19,7 @@ public class Main7 {
          */
 
         //Fields
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in, Charset.defaultCharset());
 
         //Variables
         int num1, num2, result;

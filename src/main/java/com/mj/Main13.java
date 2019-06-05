@@ -3,10 +3,12 @@ package com.mj;
 
 //Imports
 import java.util.Scanner;
+import java.nio.charset.Charset;
 
 /**
  * Main13 Class
  */
+@SuppressWarnings("PMD.DataflowAnomalyAnalysis")
 public class Main13 {
 
     /**
@@ -17,7 +19,7 @@ public class Main13 {
      */
     public static void main(String[] args) {
         //Fields
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in, Charset.defaultCharset());
 
         //Variables
         double world, growth;

@@ -3,11 +3,12 @@ package com.mj;
 
 //Imports
 import java.util.Scanner;
+import java.nio.charset.Charset;
 
 /**
  * Main 6 Class
  */
-
+@SuppressWarnings("PMD.AvoidDuplicateLiterals")
 public class Main6 {
 
     public static void main(String[] args) {
@@ -19,7 +20,7 @@ public class Main6 {
          */
 
         //Fields
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in, Charset.defaultCharset());
 
         //Variables
         int int1, int2, int3, int4, int5;

@@ -3,6 +3,7 @@ package com.mj;
 
 //Imports
 import java.util.Scanner;
+import java.nio.charset.Charset;
 
 /**
  * Main14 Class
@@ -11,12 +12,12 @@ public class Main14 {
     public static void main(String[] args) {
 
         //Fields
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in, Charset.defaultCharset());
 
         //Variables
         int parking, tolls, milesPerGallon, totalMiles;
-        float gasoline;
-        double drivingCost;
+        int gasoline;
+        int drivingCost;
 
         System.out.println("Application that calculates your daily driving cost,\n" +
                 "so that you can estimate how much money could be saved by car pooling,\n" +
@@ -25,7 +26,7 @@ public class Main14 {
         System.out.println("Enter total miles driven a day");
         totalMiles = input.nextInt();
         System.out.println("Enter $ per gallon of gasoline");
-        gasoline = input.nextFloat();
+        gasoline = input.nextInt();
 
         System.out.println("Enter Parking fees");
         parking = input.nextInt();

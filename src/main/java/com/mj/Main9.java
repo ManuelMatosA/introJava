@@ -3,6 +3,7 @@ package com.mj;
 
 //Imports
 import java.util.Scanner;
+import java.nio.charset.Charset;
 
 /**
  * Main 9 Class
@@ -32,7 +33,7 @@ public class Main9 {
          */
 
         //Fields
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in, Charset.defaultCharset());
 
         //Variables
         double radius, diameter;
