@@ -62,41 +62,41 @@ import java.util.Scanner;
             //If statements that keep track of how many negatives are there
             if (num1 < 0) {
                 neg = neg + 1;
-
-
-                if (num2 < 0)
-                    neg = neg + 1;
-
-                if (num3 < 0)
-                    neg = neg + 1;
-
-                if (num4 < 0)
-                    neg = neg + 1;
-
-                if (num5 < 0)
-                    neg = neg + 1;
-
-                // If statements that keep track of how many zeros are there
-                if (num1 == 0)
-                    cero = cero + 1;
-
-                if (num2 == 0)
-                    cero = cero + 1;
-
-                if (num3 == 0)
-                    cero = cero + 1;
-
-                if (num4 == 0)
-                    cero = cero + 1;
-
-                if (num5 == 0)
-                    cero = cero + 1;
-
-                //Print the results
-                System.out.println("Total positive numbers: " + pos);
-                System.out.println("Total negative numbers: " + neg);
-                System.out.println("Total zero numbers: " + cero);
             }
-        }
-    }
 
+            if (num2 < 0) {
+                neg = neg + 1;
+            }
+            if (num3 < 0) {
+                neg = neg + 1;
+            }
+            if (num4 < 0) {
+                neg = neg + 1;
+            }
+            if (num5 < 0) {
+                neg = neg + 1;
+            }
+            // If statements that keep track of how many zeros are there
+            if (num1 == 0) {
+                cero = cero + 1;
+            }
+            if (num2 == 0) {
+                cero = cero + 1;
+            }
+            if (num3 == 0) {
+                cero = cero + 1;
+            }
+            if (num4 == 0) {
+                cero = cero + 1;
+            }
+            if (num5 == 0) {
+                cero = cero + 1;
+            }
+
+            //Print the results
+            System.out.println("Total positive numbers: " + pos);
+            System.out.println("Total negative numbers: " + neg);
+            System.out.println("Total zero numbers: " + cero);
+        }
+
+    }

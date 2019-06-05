@@ -14,7 +14,7 @@ public class Main2 {
      * c) Use one System.out.printf statement.
      * @param args
      */
-    public static void main (String[] args){
+    public static void main(String[] args) {
 
         //Variables
         byte num1 = 1;
@@ -24,15 +24,15 @@ public class Main2 {
 
 
         //Line A operation
-        System.out.println( num1 + " " + num2 + " " + num3 + " " + num4 );
+        System.out.println(num1 + " " + num2 + " " + num3 + " " + num4);
 
         //Line B operation
-        System.out.print( num1 + " " );
-        System.out.print( num2 + " " );
-        System.out.print( num3 + " " );
-        System.out.print( num4 + "\n" );
+        System.out.print(num1 + " ");
+        System.out.print(num2 + " ");
+        System.out.print(num3 + " ");
+        System.out.print(num4 + "\n");
 
         //Line C operation
-        System.out.printf("%d %d %d %d", num1,num2,num3,num4);
+        System.out.printf("%d %d %d %d", num1, num2, num3, num4);
         }
 }

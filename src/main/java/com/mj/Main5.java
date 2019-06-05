@@ -6,7 +6,7 @@ package com.mj;
  */
 public class Main5 {
 
-    public static void main (String[] args){
+    public static void main(String[] args) {
 
         /**
          * (Displaying Shapes with Asterisks) Write an application that displays a box, an oval, an arrow
@@ -14,14 +14,14 @@ public class Main5 {
          */
 
         //Displaying the shapes
-        System.out.println ("*********      ***        *          * ");
-        System.out.println ("*       *    *     *     ***        * * ");
-        System.out.println ("*       *   *       *   *****      *   * ");
-        System.out.println ("*       *   *       *     *       *     * ");
-        System.out.println ("*       *   *       *     *      *       * ");
-        System.out.println ("*       *   *       *     *       *     * ");
-        System.out.println ("*       *   *       *     *        *   * ");
-        System.out.println ("*       *    *     *      *         * * ");
-        System.out.println ("*********      ***        *          * ");
+        System.out.println("*********      ***        *          * ");
+        System.out.println("*       *    *     *     ***        * * ");
+        System.out.println("*       *   *       *   *****      *   * ");
+        System.out.println("*       *   *       *     *       *     * ");
+        System.out.println("*       *   *       *     *      *       * ");
+        System.out.println("*       *   *       *     *       *     * ");
+        System.out.println("*       *   *       *     *        *   * ");
+        System.out.println("*       *    *     *      *         * * ");
+        System.out.println("*********      ***        *          * ");
     }
 }

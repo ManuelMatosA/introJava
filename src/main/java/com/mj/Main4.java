@@ -17,10 +17,10 @@ public class Main4 {
      * 2.3333….]
      * @param args
      */
-    public static void main (String[] args){
+    public static void main(String[] args) {
 
         //Fields
-        Scanner input = new Scanner (System.in);
+        Scanner input = new Scanner(System.in);
 
         //Variables
         int num1, num2, num3, sum, avg, pro;
@@ -37,35 +37,35 @@ public class Main4 {
 
         //Calculate sum operator
         sum = num1 + num2 + num3;
-        System.out.println("The sum is "+ sum);
+        System.out.println("The sum is " + sum);
 
         //Calculate product operator
         pro = num1 * num2 * num3;
-        System.out.println("The product is "+ pro);
+        System.out.println("The product is " + pro);
 
         //Calculate average
-        avg = num1 + num2 + num3/3;
-        System.out.println("The average is "+ avg);
+        avg = num1 + num2 + num3 / 3;
+        System.out.println("The average is " + avg);
 
         //If statements that calculate if an integer is the largest
-        if (num1 > num2 && num1 > num3)
+        if (num1 > num2 && num1 > num3) {
             System.out.println(num1 + " is the largest");
-
-        if (num2 > num1 && num2 > num3)
+        }
+        if (num2 > num1 && num2 > num3) {
             System.out.println(num2 + " is the largest");
-
-        if (num3 > num2 && num3 > num1)
+        }
+        if (num3 > num2 && num3 > num1) {
             System.out.println(num3 + " is the largest");
-
+        }
         //If statements that calculate if an integer is the smallest
-        if (num1 < num2 && num1 < num3)
+        if (num1 < num2 && num1 < num3) {
             System.out.println(num1 + " is the smallest");
-
-        if (num2 < num1 && num2 < num3)
+        }
+        if (num2 < num1 && num2 < num3) {
             System.out.println(num2 + " is the smallest");
-
-        if (num3 < num2 && num3 < num1)
+        }
+        if (num3 < num2 && num3 < num1) {
             System.out.println(num3 + " is the smallest");
-
+        }
     }
 }

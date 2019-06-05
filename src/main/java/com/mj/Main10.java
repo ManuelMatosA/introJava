@@ -20,10 +20,10 @@ public class Main10 {
      * techniques you learned in this chapter. You’ll need to use both division and remainder operations
      * to “pick off ” each digit.]
      */
-    public static void main (String[] args){
+    public static void main(String[] args) {
 
         //Fields
-        Scanner input = new Scanner (System.in);
+        Scanner input = new Scanner(System.in);
 
         //Variables
         int num;
@@ -33,19 +33,19 @@ public class Main10 {
         num = input.nextInt();
 
         //If statements
-        if ( (num >= 10000) && (num <= 99999) ) {
+        if ((num >= 10000) && (num <= 99999)) {
             System.out.print(num / 10000 + " ");
             System.out.print(num / 1000 % 10 + " ");
             System.out.print(num / 100 % 10 + " ");
             System.out.print(num / 10 % 10 + " ");
-            System.out.print(num % 10 );
+            System.out.print(num % 10);
         }
 
-        if ( num > 99999){
+        if (num > 99999) {
             System.out.println("Enter less than five digits");
         }
 
-        if ( num < 10000){
+        if (num < 10000) {
             System.out.println("Enter more than five digits");
         }
 

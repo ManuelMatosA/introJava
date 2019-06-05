@@ -7,7 +7,7 @@ package com.mj;
 
 public class Main8 {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         /**
          *(Checkerboard Pattern of Asterisks) Write an application that displays a checkerboard pattern,

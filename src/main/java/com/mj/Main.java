@@ -34,23 +34,23 @@ public class Main {
 
         //Calculate sum operation
         sum = number1 + number2;
-        System.out.println("The Sum is ["+sum+"]: ");
+        System.out.println("The Sum is [" + sum + "]: ");
 
         //Calculate res operation
         res = number1 - number2;
-        System.out.println("The rest is ["+res+"]: ");
+        System.out.println("The rest is [" + res + "]: ");
 
         //Calculate mul operation
         mul = number1 * number2;
-        System.out.println("The mul is ["+mul+"]: ");
+        System.out.println("The mul is [" + mul + "]: ");
 
         //Calculate div operation
         div = number1 / number2;
-        System.out.println("The div is ["+div+"]: ");
+        System.out.println("The div is [" + div + "]: ");
 
         //Calculate cos operation
         cos = number1 % number2;
-        System.out.println("The cos is ["+cos+"]: ");
+        System.out.println("The cos is [" + cos + "]: ");
 
     }
 }

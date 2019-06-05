@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class Main7 {
 
-    public static void main (String[] args){
+    public static void main(String[] args) {
 
         /**
          * (Multiples) Write an application that reads two integers, determines whether the first is a
@@ -25,18 +25,20 @@ public class Main7 {
 
         //Prompt, input numbers
         System.out.println("Input first number");
-        num1= input.nextInt();
+        num1 = input.nextInt();
 
         System.out.println("Input second number");
         num2 = input.nextInt();
 
         //Calculate remainder operator
-        result = num1%num2;
+        result = num1 % num2;
 
         //If else statement to indicate if the integers are multiples or not
-        if (result == 0)
+        if (result == 0) {
             System.out.println("These are multiples");
-        else
+        }
+        else {
             System.out.println("Not multiples");
+        }
     }
 }

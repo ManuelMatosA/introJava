@@ -8,9 +8,9 @@ import java.util.Scanner;
  * Main 9 Class
  */
 
-public class Main9{
+public class Main9 {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         /**
          * (Diameter, Circumference and Area of a Circle) Here’s a peek ahead. In this chapter, you
@@ -43,11 +43,15 @@ public class Main9{
         radius =  input.nextDouble();
 
         //Calculate diameter
-        diameter = 2*radius;
+        diameter = 2 * radius;
 
-        //
-        circumference = 2*Math.PI*radius;
-        area = Math.PI*radius*radius;
+        //Calculate circumference
+        circumference = 2 * Math.PI * radius;
+
+        //Calculate area
+        area = Math.PI * radius * radius;
+
+        //Print results
         System.out.println("The diameter is " + diameter);
         System.out.println("The circumference is " + circumference);
         System.out.println("The area is " + area);

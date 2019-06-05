@@ -11,7 +11,7 @@ public class Main11 {
      * prints the resulting values in table format, as shown below. [Note: This program does not require
      * any input from the user.]
      */
-    public static void main (String[] args){
+    public static void main(String[] args) {
 
         //Variable
         int num;
