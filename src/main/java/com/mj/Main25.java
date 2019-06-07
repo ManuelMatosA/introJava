@@ -25,8 +25,10 @@ public class Main25 {
         //Fields
         Scanner input = new Scanner(System.in, Charset.defaultCharset());
 
+
         //Variables
-        float hours = 0;
+        int response = 1;
+        int hours = 0;
         float rate;
         float salary;
         float excess;
@@ -34,10 +36,10 @@ public class Main25 {
 
         System.out.println("Welcome! Calculate weekly salaries for your employees");
 
-        while (hours != -5) {
+        while (response == 1) {
 
-            System.out.println("Input the numbers of hours worked, enter -5 to quit");
-            hours = input.nextFloat();
+            System.out.println("Input the numbers of hours worked");
+            hours = input.nextInt();
 
             System.out.println("Input the hourly rate");
             rate = input.nextFloat();
@@ -52,6 +54,8 @@ public class Main25 {
                 System.out.println("Your salary is " + newPay);
             }
 
+            System.out.println("You would like to process more employees?. In case of yes press 1");
+            response = input.nextInt();
         }
     }
 }
