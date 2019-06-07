@@ -28,7 +28,7 @@ public class Main25 {
 
         //Variables
         int response = 1;
-        int hours = 0;
+        float hours;
         float rate;
         float salary;
         float excess;
@@ -39,7 +39,7 @@ public class Main25 {
         while (response == 1) {
 
             System.out.println("Input the numbers of hours worked");
-            hours = input.nextInt();
+            hours = input.nextFloat();
 
             System.out.println("Input the hourly rate");
             rate = input.nextFloat();
