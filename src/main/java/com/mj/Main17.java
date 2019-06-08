@@ -33,6 +33,7 @@ public class Main17 {
         double totalSale = 0;
         int item = 0;
 
+        // Do - while repetition statement that prompts the user to enter a number and calculates the commission while the user has not entered -5
         do {
             System.out.println("Enter sale, or -5 to quit when finished entering sales\n(You have to enter a minimum of 1 sale)");
             sale = input.nextDouble();
@@ -42,11 +43,13 @@ public class Main17 {
 
             } while (sale != -5);
 
+        //Calculate total earnings
         earning = totalSale + 200;
+
+        //Print results
         System.out.println("The total of items sold this week are: " + item);
         System.out.println("Your salary this week is: " + earning);
         }
 
     }
-
 
