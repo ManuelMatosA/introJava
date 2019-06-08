@@ -26,25 +26,31 @@ public class Main24 {
         int largestNum = 0;
         int largest2 = 0;
 
+        //Greeting
         System.out.println("Will you have the BIGGEST number? Let's find out!");
 
+        //While loop that uses a counter variable to control the number of inputs
         while (counter < 10) {
 
+            //Prompt
             System.out.println("Enter your number: ");
             number = input.nextInt();
             counter++;
 
+            //Changes the value of the largest number
             if (number > largestNum) {
                 largest2 = largestNum;
                 largestNum = number;
             }
 
+            //Changes the value of the second largest
             if (number < largestNum) {
                 if (number > largest2) {
                     largest2 = number;
                 }
             }
 
+            //Printing largest and second largest
             System.out.println("The largest number is " + largestNum);
             System.out.println("The second largest number is " + largest2);
         }

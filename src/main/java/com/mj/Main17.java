@@ -29,18 +29,24 @@ public class Main17 {
         Scanner input = new Scanner(System.in, Charset.defaultCharset());
 
         //Variables
-        int commission, earning, sale;
+        double commission, earning, sale;
+        double totalSale = 0;
         int item = 0;
 
-        while (true) {
-            System.out.println("Enter sale or -5 to quit the program");
-            sale = input.nextInt();
+        do {
+            System.out.println("Enter sale, or -5 to quit when finished entering sales\n(You have to enter a minimum of 1 sale)");
+            sale = input.nextDouble();
+            commission = sale * 0.09;
+            totalSale += commission;
             ++item;
 
-            if (sale == -5) {
-                System.out.println("Thank you for using our program");
-            }
+            } while (sale != -5);
+
+        earning = totalSale + 200;
+        System.out.println("The total of items sold this week are: " + item);
+        System.out.println("Your salary this week is: " + earning);
         }
 
     }
-}
+
+

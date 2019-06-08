@@ -23,6 +23,7 @@ public class Main23 {
         int b;
         int c;
 
+        //Prompt, entering the sides of the triangle
         System.out.println("Enter the first side: ");
         a = input.nextInt();
 
@@ -32,6 +33,7 @@ public class Main23 {
         System.out.println("Enter the third side: ");
         c = input.nextInt();
 
+        //If else statements that determine the type of triangle
         if (a == b && a == c && b == c) {
             System.out.println("This is an equilateral triangle");
         }
