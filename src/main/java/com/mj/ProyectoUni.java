@@ -5,7 +5,64 @@ package com.mj;
 import java.util.Scanner;
 import java.nio.charset.Charset;
 
+/**
+ * ProyectoUni Class
+ */
+
 public class ProyectoUni {
+
+    /**
+     * 1. Inicio
+     * 2. // Declaración de Variables
+     * INT rsp_corr, rsp_inc, rsp_blan, ptj_def
+     * String nombre, cedula
+     * 3. // Inicialización de Variables
+     * ptj_def=0;
+     * 4. Mostrar (“Este programa calcula el puntaje final de una prueba
+     * aplicada”)
+     * // Solicitud de Datos del Estudiante
+     * 5. Mostrar (“Indique el nombre de Estudiante”)
+     * 6. Leer Nombre
+     * 7. Mostrar (“Indique la Cedula del Estudiante”)
+     * 8. Leer Cedula
+     * // Lectura de cantidad de respuestas en CORRECTAS y validación
+     * 9. Mostrar (“Introduzca la cantidad de respuestas correctas”)
+     * 10. Hacer
+     * 10.1 Leer rsp_corr
+     * 10.2 Si (rsp_corr<0)
+     * 10.2.1 Mostrar (“Introdujo una cantidad errónea, ingrese nuevamente”)
+     * 10.2.2 Fin Si
+     * 10.3 Mientras(rsp_corr<0)
+     * 10.4 Fin Hacer-Mientras
+     * // Lectura de cantidad de respuestas en INCORRECTAS y validación
+     * 11. Mostrar (“Introduzca la cantidad de respuestas incorrectas”)
+     * 12. Hacer
+     * 12.1 Leer rsp_inc
+     * 12.2 Si (rsp_inc<0)
+     * 12.2.1 Mostrar (“Introdujo una cantidad errónea, ingrese nuevamente”)
+     * 12.2.2 Fin Si
+     * 12.3 Mientras(rsp_cinc<0)
+     * 12.4 Fin Hacer-Mientras
+     * // Lectura de cantidad de respuestas en BLANCO y validación
+     * 13. Mostrar (“Introduzca la cantidad de respuestas en blanco”)
+     * 14. Hacer
+     * 14.1 Leer rsp_blan
+     * 14.2 Si (rsp_blan<0)
+     * 14.2.1 Mostrar (“Introdujo una cantidad errónea, ingrese nuevamente”)
+     * 14.2.2 Fin Si
+     * 14.3 Mientras(rsp_blan<0)
+     * 14.4 Fin Hacer-Mientras
+     * //Impresión de reporte
+     * 15. ptj_def = [(rsp_corr*4)+(rsp_inc*(-1))]
+     * 16. Mostrar (“El estudiante ”, nombre)
+     * 17. Mostrar (“y Cédula de Identidad ”, cedula)
+     * 18. Mostrar (“Tiene el siguiente récord en la prueba:”)
+     * 19. Mostrar (“- Respuestas Correctas: ”, rsp_corr)
+     * 20. Mostrar (“- Respuestas Incorrectas:”, rsp_inc)
+     * 21. Mostrar (“- Respuestas en Blanco:”, rsp_blan)
+     * 22. Mostrar (“- Puntaje Final:”, ptj_def)
+     * 23. FIN
+     */
 
     public static void main(String[] args) {
 
