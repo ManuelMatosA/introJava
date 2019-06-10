@@ -9,8 +9,7 @@ import java.nio.charset.Charset;
  * Main35 Class
  */
 public class Main35 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         //Fields
         Scanner input = new Scanner(System.in, Charset.defaultCharset());
 
@@ -38,6 +37,9 @@ public class Main35 {
             case 2:
                 System.out.println("WRONG ANSWER.");
                 break;
+
+            default :
+                System.out.println("You can't do anything right");
 
         }
         System.out.println("True or False: Global warming is caused only by natural factors.");

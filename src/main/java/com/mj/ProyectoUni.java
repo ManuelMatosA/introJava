@@ -94,7 +94,7 @@ public class ProyectoUni {
         // Lectura de cantidad de respuestas en INCORRECTAS y validación
         System.out.println("Enter the amount of incorrect answers");
 
-        do{
+        do {
             rsp_inc = input.nextInt();
             if (rsp_inc < 0) {
                 System.out.println("You have entered an aberrant amount, input again");
@@ -105,7 +105,7 @@ public class ProyectoUni {
         // Lectura de cantidad de respuestas en BLANCO y validación
         System.out.println("Enter the amount of blank answers");
 
-        do{
+        do {
             rsp_blan = input.nextInt();
             if (rsp_blan < 0) {
                 System.out.println("You have entered an aberrant amount, input again");
@@ -114,7 +114,7 @@ public class ProyectoUni {
         } while (rsp_blan < 0);
 
         //Impresión de reporte
-        ptj_def = (rsp_corr*4)+(rsp_inc*(-1));
+        ptj_def = (rsp_corr * 4) + (rsp_inc * (-1));
         System.out.print("The student " + name);
         System.out.println(" with ID number " + id);
         System.out.println("Has the following record in the test:");
