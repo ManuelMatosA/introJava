@@ -43,12 +43,13 @@ public class Main29 {
         //First bar
         for (int counter = 0; number > counter; counter++) {
             System.out.print("* ");
+            System.out.println();
         }
 
         System.out.println();
 
         //Second bar
-        for (int counter = 0; number3 > counter; counter++) {
+        for (int counter = 0; number2 > counter; counter++) {
             System.out.println("* "); }
 
 
