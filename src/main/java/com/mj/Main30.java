@@ -7,6 +7,7 @@ import java.nio.charset.Charset;
 /**
  * Main30 Class
  */
+
 public class Main30 {
     /**
      * 5.17 (Calculating Sales) An online retailer sells five products whose retail prices are as follows:
@@ -20,26 +21,30 @@ public class Main30 {
      */
 
     public static void main(String[] args) {
-
         //Variables
         int product;
         int sales;
-        int counter = 0;
-        double total = 0;
         double pro1 = 2.98;
         double pro2 = 4.50;
         double pro3 = 9.98;
         double pro4 = 4.49;
         double pro5 = 6.87;
-        int response = 0;
+        double total1 = 0;
+        double total2 = 0;
+        double total3 = 0;
+        double total4 = 0;
+        double total5 = 0;
+
 
         //Fields
         Scanner input = new Scanner(System.in, Charset.defaultCharset());
 
 
+        //Prompt for number of products
         System.out.println("Enter the product you wish to buy");
         product = input.nextInt();
 
+        //Product
         System.out.println("Enter how many of this product you wish to buy");
         sales = input.nextInt();
 
@@ -47,33 +52,37 @@ public class Main30 {
 
             case 1:
                 pro1 = pro1 * sales;
-                total = total + pro1;
+                total1 = total1 + pro1;
+                System.out.println("Your total is " + total1);
                 break;
 
             case 2:
                 pro2 = pro2 * sales;
-                total = total + pro2;
+                total2 = total2 + pro2;
+                System.out.println("Your total is " + total2);
                 break;
 
             case 3:
                 pro3 = pro3 * sales;
-                total = total + pro3;
+                total3 = total3 + pro3;
+                System.out.println("Your total is " + total3);
                 break;
 
             case 4:
                 pro4 = pro4 * sales;
-                total = total + pro4;
+                total4 = total4 + pro4;
+                System.out.println("Your total is " + total4);
                 break;
 
             case 5:
                 pro5 = pro5 * sales;
-                total = total + pro5;
+                total5 = total5 + pro5;
+                System.out.println("Your total is " + total5);
                 break;
 
             default:
                 System.out.println("You have entered an invalid product number");
                 break;
     }
-            System.out.println("Your total is " + total);
     }
 }

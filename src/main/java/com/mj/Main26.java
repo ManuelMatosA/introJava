@@ -2,8 +2,9 @@
 package com.mj;
 
 /**
- * Main22 Class
+ * Main26 Class
  */
+@SuppressWarnings("DataflowAnomalyAnalysis")
 public class Main26 {
 
     /**
@@ -16,10 +17,10 @@ public class Main26 {
         int product = 1;
 
         //For loop that creates counter
-        for(int counter = 1; counter <= 15; counter += 3) {
+        for (int counter = 1; counter <= 15; counter += 2) {
         product *= counter;
-            System.out.println ("Counter is " + counter);
-            System.out.println ("Product is " + product);
+            System.out.println("Counter is " + counter);
+            System.out.println("Product is " + product);
         }
     }
 }

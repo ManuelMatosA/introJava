@@ -9,7 +9,7 @@ public class Main31 {
      *
      * @param args
      */
-
+    @SuppressWarnings("DataflowAnomalyAnalysis")
     public static void main(String[] args) {
 
         double principal = 1000.0; // initial amount before interest

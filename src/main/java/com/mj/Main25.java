@@ -9,7 +9,6 @@ import java.nio.charset.Charset;
  * Main25 Class
  */
 @SuppressWarnings("PMD.DataflowAnomalyAnalysis")
-
 public class Main25 {
 
     /**
@@ -52,11 +51,11 @@ public class Main25 {
             System.out.println("Your salary is " + salary);
             } else if (hours > 40) {
                 excess = hours - 40;
-                newPay = ( 40 * rate ) + ( excess * rate );
+                newPay = (40 * rate) + (excess * rate);
                 System.out.println("Your salary is " + newPay);
             }
 
-        //Prompt
+        //Prompt the user to process more employees
         System.out.println("Would you like to process more employees?. In case of yes press 1");
             response = input.nextInt();
         }

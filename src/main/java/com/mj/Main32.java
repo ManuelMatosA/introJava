@@ -8,6 +8,7 @@ import java.nio.charset.Charset;
 /**
  * Main32 Class
  */
+@SuppressWarnings("PMD.AvoidDuplicateLiterals")
 public class Main32 {
     /**
      * 5.29 (“The Twelve Days of Christmas” Song) Write an application that uses repetition and
@@ -17,20 +18,21 @@ public class Main32 {
      * of_Christmas_(song) for the lyrics of the song.
      */
 
+    /**
+     case 11:
+     System.out.println("On the eleventh day of Christmas my true love gave to me,");
+     break;
+     case 12:
+     System.out.println("On the twelfth day of Christmas my true love gave to me,");
+     break;
+     */
+
     public static void main(String[] args) {
-
-        //Variables
         int song;
-
-        //Fields
         Scanner input = new Scanner(System.in, Charset.defaultCharset());
-
-
             System.out.println("Enter the day");
             song = input.nextInt();
-
             switch (song) {
-
                 case 1:
                     System.out.println("On the first day of Christmas my true love gave to me,");
                     break;
@@ -61,17 +63,11 @@ public class Main32 {
                 case 10:
                     System.out.println("On the tenth day of Christmas my true love gave to me,");
                     break;
-                case 11:
-                    System.out.println("On the eleventh day of Christmas my true love gave to me,");
-                    break;
-                case 12:
-                    System.out.println("On the twelfth day of Christmas my true love gave to me,");
+                default :
+                    System.out.println("Enter a correct day");
                     break;
             }
-
-
             switch (song) {
-
                 case 1:
                     System.out.println("A partridge in a pear tree.");
                     break;
@@ -173,6 +169,9 @@ public class Main32 {
                             "Three French hens,\n" +
                             "Two turtle doves,\n" +
                             "And a partridge in a pear tree.");
+                    break;
+                default :
+                    System.out.println("Please try again.");
                     break;
             }
         }

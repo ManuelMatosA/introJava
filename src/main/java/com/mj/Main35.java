@@ -8,6 +8,7 @@ import java.nio.charset.Charset;
 /**
  * Main35 Class
  */
+@SuppressWarnings("PMD.AvoidDuplicateLiterals")
 public class Main35 {
     public static void main(String[] args) {
         //Fields
@@ -40,6 +41,7 @@ public class Main35 {
 
             default :
                 System.out.println("You can't do anything right");
+                break;
 
         }
         System.out.println("True or False: Global warming is caused only by natural factors.");
@@ -55,6 +57,9 @@ public class Main35 {
 
             case 2:
                 System.out.println("WRONG ANSWER.");
+                break;
+            default :
+                System.out.println("Enter the right key");
                 break;
 
         }
@@ -72,6 +77,9 @@ public class Main35 {
             case 2:
                 System.out.println("WRONG ANSWER.");
                 break;
+            default :
+                System.out.println("Enter the right key");
+                break;
 
         }
         System.out.println("True or False: Tropical forests are incredibly effective at storing carbon,\nproviding at least 30% of action needed to prevent the worst climate change scenarios.\nYet nature-based solutions only receive only 2% of all climate funding.");
@@ -87,6 +95,9 @@ public class Main35 {
 
             case 2:
                 System.out.println("WRONG ANSWER.");
+                break;
+            default :
+            System.out.println("Enter the right key");
                 break;
 
         }
@@ -106,6 +117,10 @@ public class Main35 {
                 System.out.println("WRONG ANSWER.");
                 break;
 
+            default :
+                System.out.println("Enter the right key");
+                break;
+
         }
 
         finalAnswer = finalAnswer + counter1 + counter2 + counter3 + counter4 + counter5;
@@ -123,7 +138,7 @@ public class Main35 {
 
             case 2:
                 System.out.println("2 out of 5... I guess you've been watching a lot of Fox News.\n" +
-                        "You stupid redneck");
+                        "You idiot");
                 break;
 
             case 3:
@@ -137,6 +152,9 @@ public class Main35 {
 
             case 5:
                 System.out.println("Congratulations! You answered everything correctly! People like you are the only ones that matter!");
+                break;
+            default :
+                System.out.println("We really don't know what to do in this situation");
                 break;
         }
 

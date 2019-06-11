@@ -70,7 +70,7 @@ public class ProyectoUni {
         Scanner input = new Scanner(System.in, Charset.defaultCharset());
 
         //Variables
-        int rsp_corr, rsp_inc, rsp_blan, ptj_def;
+        int rspCorr, rspInc, rspBlan, ptjDef;
         String name, id;
 
         // Solicitud de Datos del Estudiante
@@ -84,44 +84,44 @@ public class ProyectoUni {
         // Lectura de cantidad de respuestas en CORRECTAS y validación
         System.out.println("Enter the amount of correct answers");
         do {
-            rsp_corr = input.nextInt();
-            if (rsp_corr < 0) {
+            rspCorr = input.nextInt();
+            if (rspCorr < 0) {
                 System.out.println("You have entered an aberrant amount, input again");
             }
 
-        } while (rsp_corr < 0);
+        } while (rspCorr < 0);
 
         // Lectura de cantidad de respuestas en INCORRECTAS y validación
         System.out.println("Enter the amount of incorrect answers");
 
         do {
-            rsp_inc = input.nextInt();
-            if (rsp_inc < 0) {
+            rspInc = input.nextInt();
+            if (rspInc < 0) {
                 System.out.println("You have entered an aberrant amount, input again");
             }
 
-        } while (rsp_inc < 0);
+        } while (rspInc < 0);
 
         // Lectura de cantidad de respuestas en BLANCO y validación
         System.out.println("Enter the amount of blank answers");
 
         do {
-            rsp_blan = input.nextInt();
-            if (rsp_blan < 0) {
+            rspBlan = input.nextInt();
+            if (rspBlan < 0) {
                 System.out.println("You have entered an aberrant amount, input again");
             }
 
-        } while (rsp_blan < 0);
+        } while (rspBlan < 0);
 
         //Impresión de reporte
-        ptj_def = (rsp_corr * 4) + (rsp_inc * (-1));
+        ptjDef = (rspCorr * 4) + (rspInc * (-1));
         System.out.print("The student " + name);
         System.out.println(" with ID number " + id);
         System.out.println("Has the following record in the test:");
-        System.out.println("- Correct answers: " + rsp_corr);
-        System.out.println("- Incorrect answers: " + rsp_inc);
-        System.out.println("- Blank answers: " + rsp_blan);
-        System.out.println("- Final score: " + ptj_def);
+        System.out.println("- Correct answers: " + rspCorr);
+        System.out.println("- Incorrect answers: " + rspInc);
+        System.out.println("- Blank answers: " + rspBlan);
+        System.out.println("- Final score: " + ptjDef);
     }
 
 }

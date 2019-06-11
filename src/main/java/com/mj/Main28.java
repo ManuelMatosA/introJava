@@ -3,8 +3,7 @@ package com.mj;
 
 /**
  * Main28 Class
- */
-
+ * */
 public class Main28 {
     /**
      * 5.15 (Triangle Printing Program) Write an application that displays the following patterns separately,
@@ -29,6 +28,7 @@ public class Main28 {
 
     public static void main(String[] args) {
 
+        //For loop that displays the first triangle
         for (int space = 0; space < 10; space++) {
             for (int asterisc = 0; asterisc < space + 1; asterisc++) {
                 System.out.print("*");
@@ -36,8 +36,10 @@ public class Main28 {
             System.out.println(" ");
         }
 
+        //Line for space
         System.out.println();
 
+        //For loop that displays the second triangle
         for (int space = 10; space > 0; space--) {
             for (int asterisc = 0; asterisc < space - 1; asterisc++) {
                 System.out.print("*");
@@ -46,8 +48,10 @@ public class Main28 {
             System.out.println(" ");
         }
 
+        //Line for space
         System.out.println();
 
+        //For loop that displays the third triangle
         for (int space = 0; space < 10; space++) {
             for (int asterisc = 0; asterisc < space + 1; asterisc++) {
                 System.out.print("*");
@@ -55,8 +59,10 @@ public class Main28 {
             System.out.println(" ");
         }
 
+        //Line for space
         System.out.println();
 
+        //For loop that displays the fourth
         for (int space = 0; space < 0; space++) {
             for (int asterisc = 1; asterisc < space + 1; asterisc++) {
                 System.out.print("*");

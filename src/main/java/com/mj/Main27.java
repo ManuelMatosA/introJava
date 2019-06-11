@@ -4,6 +4,7 @@ package com.mj;
 /**
  * Main27 Class
  */
+@SuppressWarnings("DataflowAnomalyAnalysis")
 public class Main27 {
 
     /**
