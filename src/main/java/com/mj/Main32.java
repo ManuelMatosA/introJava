@@ -19,10 +19,18 @@ public class Main32 {
      */
 
     public static void main(String[] args) {
+
+        //Variables
         int song;
+
+        //Fields
         Scanner input = new Scanner(System.in, Charset.defaultCharset());
+
+        //Prompt to enter the day
             System.out.println("Enter the day");
             song = input.nextInt();
+
+            //Switch statement for the days
             switch (song) {
                 case 1:
                     System.out.println("On the first day of Christmas my true love gave to me,");
@@ -64,6 +72,8 @@ public class Main32 {
                     System.out.println("Enter a correct day");
                     break;
             }
+
+            //Switch for the verse
             switch (song) {
                 case 1:
                     System.out.println("A partridge in a pear tree.");
