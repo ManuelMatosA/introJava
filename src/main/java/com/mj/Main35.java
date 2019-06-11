@@ -23,11 +23,15 @@ public class Main35 {
         int counter5 = 0;
         int finalAnswer = 0;
 
+        //Welcome screen
         System.out.println("Welcome to this true or false climate change quiz. Enter 1 for true or 2 for false.");
+        //Empty line
         System.out.println();
+        //Prompt with first question
         System.out.println("True or False: Wasting less food is a way to reduce greenhouse gas emissions.");
         response = input.nextByte();
 
+        //Switch statement that selects right or wrong question
         switch (response) {
 
             case 1:
@@ -44,10 +48,12 @@ public class Main35 {
                 break;
 
         }
-        System.out.println("True or False: Global warming is caused only by natural factors.");
 
+        //Prompt with second question
+        System.out.println("True or False: Global warming is caused only by natural factors.");
         response = input.nextByte();
 
+        //Switch statement that selects right or wrong question
         switch (response) {
 
             case 1:
@@ -64,9 +70,11 @@ public class Main35 {
 
         }
 
+        //Prompt with third question
         System.out.println("True or False:\nEleven percent of all global greenhouse gas emissions caused by humans are caused by deforestation.");
         response = input.nextByte();
 
+        //Switch statement that selects right or wrong question
         switch (response) {
 
             case 1:
@@ -82,10 +90,11 @@ public class Main35 {
                 break;
 
         }
+        //Prompt with fourth question
         System.out.println("True or False: Tropical forests are incredibly effective at storing carbon,\nproviding at least 30% of action needed to prevent the worst climate change scenarios.\nYet nature-based solutions only receive only 2% of all climate funding.");
-
         response = input.nextByte();
 
+        //Switch statement that selects right or wrong question
         switch (response) {
 
             case 1:
@@ -102,10 +111,11 @@ public class Main35 {
 
         }
 
+        //Prompt with fifth question
         System.out.println("True or False:\nConserving ecosystems is often more cost-effective than human-made interventions. ");
-
         response = input.nextByte();
 
+        //Switch statement that selects right or wrong question
         switch (response) {
 
             case 1:
@@ -123,8 +133,10 @@ public class Main35 {
 
         }
 
+        //Calculating final answer
         finalAnswer = finalAnswer + counter1 + counter2 + counter3 + counter4 + counter5;
 
+        //Switch statement that calculates the score
         switch (finalAnswer) {
 
             case 0:
