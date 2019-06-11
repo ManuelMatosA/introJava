@@ -29,11 +29,7 @@ public class Main30 {
         double pro3 = 9.98;
         double pro4 = 4.49;
         double pro5 = 6.87;
-        double total1 = 0;
-        double total2 = 0;
-        double total3 = 0;
-        double total4 = 0;
-        double total5 = 0;
+        double total = 0;
 
 
         //Fields
@@ -52,32 +48,32 @@ public class Main30 {
 
             case 1:
                 pro1 = pro1 * sales;
-                total1 = total1 + pro1;
-                System.out.println("Your total is " + total1);
+                total = total + pro1;
+                System.out.println("Your total is " + total);
                 break;
 
             case 2:
                 pro2 = pro2 * sales;
-                total2 = total2 + pro2;
-                System.out.println("Your total is " + total2);
+                total = total + pro2;
+                System.out.println("Your total is " + total);
                 break;
 
             case 3:
                 pro3 = pro3 * sales;
-                total3 = total3 + pro3;
-                System.out.println("Your total is " + total3);
+                total = total + pro3;
+                System.out.println("Your total is " + total);
                 break;
 
             case 4:
                 pro4 = pro4 * sales;
-                total4 = total4 + pro4;
-                System.out.println("Your total is " + total4);
+                total = total + pro4;
+                System.out.println("Your total is " + total);
                 break;
 
             case 5:
                 pro5 = pro5 * sales;
-                total5 = total5 + pro5;
-                System.out.println("Your total is " + total5);
+                total = total + pro5;
+                System.out.println("Your total is " + total);
                 break;
 
             default:
