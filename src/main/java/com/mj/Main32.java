@@ -18,15 +18,6 @@ public class Main32 {
      * of_Christmas_(song) for the lyrics of the song.
      */
 
-    /**
-     case 11:
-     System.out.println("On the eleventh day of Christmas my true love gave to me,");
-     break;
-     case 12:
-     System.out.println("On the twelfth day of Christmas my true love gave to me,");
-     break;
-     */
-
     public static void main(String[] args) {
         int song;
         Scanner input = new Scanner(System.in, Charset.defaultCharset());
@@ -62,6 +53,12 @@ public class Main32 {
                     break;
                 case 10:
                     System.out.println("On the tenth day of Christmas my true love gave to me,");
+                    break;
+                case 11:
+                    System.out.println("On the eleventh day of Christmas my true love gave to me,");
+                    break;
+                case 12:
+                    System.out.println("On the twelfth day of Christmas my true love gave to me,");
                     break;
                 default :
                     System.out.println("Enter a correct day");
