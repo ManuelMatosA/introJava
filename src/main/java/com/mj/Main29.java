@@ -40,28 +40,33 @@ public class Main29 {
         System.out.println("Input the fifth number you want to convert into a bar chart");
         number5 = input.nextInt();
 
-        //
+        //First bar
         for (int counter = 0; number > counter; counter++) {
             System.out.print("* ");
         }
 
         System.out.println();
 
+        //Second bar
         for (int counter = 0; number3 > counter; counter++) {
             System.out.println("* "); }
 
 
         System.out.println();
 
+        //Third bar
         for (int counter = 0; number3 > counter; counter++) {
             System.out.println("* "); }
 
         System.out.println();
+
+        //Fourth bar
         for (int counter = 0; number4 > counter; counter++) {
             System.out.println("* "); }
 
         System.out.println();
 
+        //Fifth bar
         for (int counter = 0; number5 > counter; counter++) {
             System.out.println("* "); }
         }
