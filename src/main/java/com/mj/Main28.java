@@ -53,22 +53,26 @@ public class Main28 {
 
         //For loop that displays the third triangle
         for (int space = 0; space < 10; space++) {
-            for (int asterisc = 0; asterisc < space + 1; asterisc++) {
+            for (int var = 1; var < space + 1; var++)
+                System.out.print(" ");
+            for (int star = 10; star > space; star--)
                 System.out.print("*");
-            }
-            System.out.println(" ");
+            System.out.println();
         }
 
-        //Line for space
-        System.out.println();
 
-        //For loop that displays the fourth
-        for (int space = 0; space < 0; space++) {
-            for (int asterisc = 1; asterisc < space + 1; asterisc++) {
-                System.out.print("*");
+            //Line for space
+            System.out.println();
 
+            //For loop that displays the fourth
+            for (int space = 10; space > 0; space--) {
+                for (int var = 0; var < space - 1; var++)
+                    System.out.print(" ");
+                for (int star = 10; star > space - 1; star--)
+                    System.out.print("*");
+                System.out.println();
             }
-            System.out.println(" ");
+
         }
     }
-}
+
