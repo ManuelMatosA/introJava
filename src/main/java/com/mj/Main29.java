@@ -28,7 +28,7 @@ public class Main29 {
         //Fields
         Scanner input = new Scanner(System.in, Charset.defaultCharset());
 
-        //Prompt
+        //Prompts
         System.out.println("Input the first number you want to convert into a bar chart");
         number = input.nextInt();
         System.out.println("Input the second number you want to convert into a bar chart");
@@ -42,26 +42,29 @@ public class Main29 {
 
         //
         for (int counter = 0; number > counter; counter++) {
-            System.out.print("*\n");
-            System.out.print("*\n");
-            System.out.print("*\n");
-            System.out.print("*\n");
-            System.out.print("*\n");
-        }
-        for (int counter1 = 0; number2 > counter1; counter1++) {
-            System.out.print("*\n"); }
-
-        for (int counter3 = 0; number3 > counter3; counter3++) {
-            System.out.println("*"); }
-
-        for (int counter1 = 0; number4 > counter1; counter1++) {
-            System.out.println("*"); }
-
-        for (int counter4 = 0; number5 > counter4; counter4++) {
-            System.out.println("*"); }
+            System.out.print("* ");
         }
 
+        System.out.println();
 
+        for (int counter = 0; number3 > counter; counter++) {
+            System.out.println("* "); }
+
+
+        System.out.println();
+
+        for (int counter = 0; number3 > counter; counter++) {
+            System.out.println("* "); }
+
+        System.out.println();
+        for (int counter = 0; number4 > counter; counter++) {
+            System.out.println("* "); }
+
+        System.out.println();
+
+        for (int counter = 0; number5 > counter; counter++) {
+            System.out.println("* "); }
+        }
 
     }
 
